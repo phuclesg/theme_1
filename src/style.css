@@ -3,11 +3,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer utilities {
-  @media (orientation: landscape) {
-    .landscape\:text-sm {
-      font-size: 0.7rem; /* ví dụ text-sm */
-    }
-  }
-}
